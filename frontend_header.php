@@ -24,7 +24,7 @@
   $category_stmt->execute();
   $categories= $category_stmt->fetchAll();
 
-  session_start();
+  // session_start();
 
 ?>
 <!DOCTYPE html>
